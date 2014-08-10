@@ -245,7 +245,7 @@ else {
 document.getElementById('bestScore').innerHTML = this.score;
 if(window.location.protocol!='file:' && sessionStorage && sessionStorage.name!==undefined)
 document.getElementById('inputName').value = sessionStorage.name;
-this.switchTo('scoreSubmit');
+//this.switchTo('scoreSubmit');
 }
 },
 scoreSubmit: function(doSubmit) {
